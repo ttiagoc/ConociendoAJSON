@@ -3,6 +3,39 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4 mt-5">Restaurantes</h1>
+    
+    <table class="table mt-5 tablaRestaurantes">
+        <thead class="thead-dark">
+            <tr>
+            <th scope="col">Restaurante</th>
+            <th scope="col">AñoApertura</th>
+            <th scope="col">Dueño</th>
+            <th scope="col">Ubicacion</th>
+            <th scope="col">Logo</th>
+            <th scope="col">Primer Plato</th>
+            <th scope="col">Plato Principal</th>
+            <th scope="col">Postre</th>
+            <th scope="col">Reseñas</th>
+            </tr>
+        </thead>
+        <tbody id="bodytable" class="m-5">            
+            <tr style="border: #39B54A;">
+                <th scope="row" id="Restaurante"></th>
+                <td id="AñoApertura"></td>
+                <td id="Dueño"></td>
+                <td id="Ubicacion"></td>
+                <td id="Logo"></td>
+                <td id="Menu"></td>
+                <td id="Menu2"></td>
+                <td id="Menu3"></td>
+                <td id="Reseñas"></td>
+            </tr>            
+    </table>
+
+    <button type="button" id="button" class="btn btn-dark">Ver restaurantes</button>    
+    <div id="display" style="background-color:#39B54A;">
+
+    </div>
+
 </div>
